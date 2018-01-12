@@ -1,4 +1,3 @@
-```javascript
 exports.doesUserFollow = function(req, res) {
 	// console.log('doesUserFollow');
 	exports.fixFollowState(req.profile, req.user)
